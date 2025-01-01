@@ -1,0 +1,254 @@
+#!MANAGED-CONFIG https://beta.yhglink.net/link/u78IFTbjKgariMGV?clash=1
+
+#---------------------------------------------------#
+## 上次更新于：2025-01-01 12:08:38
+#---------------------------------------------------#
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  -
+    name: '台湾 05'
+    type: ssr
+    server: tw501.gemini-zodiac.com
+    port: 42601
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '台湾 06'
+    type: ssr
+    server: tw502.gemini-zodiac.com
+    port: 42602
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '新加坡 301'
+    type: ssr
+    server: sg301.gemini-zodiac.com
+    port: 44301
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '新加坡 302'
+    type: ssr
+    server: sg302.gemini-zodiac.com
+    port: 44302
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '日本 301'
+    type: ssr
+    server: jp301.gemini-zodiac.com
+    port: 40301
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '日本 302'
+    type: ssr
+    server: jp302.gemini-zodiac.com
+    port: 40302
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '日本 303'
+    type: ssr
+    server: jp303.gemini-zodiac.com
+    port: 40303
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '日本 304'
+    type: ssr
+    server: jp304.gemini-zodiac.com
+    port: 40304
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '美国 01'
+    type: ssr
+    server: us01.gemini-zodiac.com
+    port: 42701
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '美国 02'
+    type: ssr
+    server: us02.gemini-zodiac.com
+    port: 42702
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '香港 A'
+    type: ssr
+    server: hka.gemini-zodiac.com
+    port: 41101
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '香港 B'
+    type: ssr
+    server: hkb.gemini-zodiac.com
+    port: 41102
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '香港 C'
+    type: ssr
+    server: hkc.gemini-zodiac.com
+    port: 41103
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+  -
+    name: '香港 D'
+    type: ssr
+    server: hkd.gemini-zodiac.com
+    port: 41104
+    cipher: aes-256-cfb
+    password: 5GMSIjTiXS8
+    protocol: auth_aes128_sha1
+    protocol-param: '29266:KkNYhJ'
+    obfs: plain
+    obfs-param: 2926629a03.download.windowsupdate.com
+    udp: true
+proxy-groups:
+  -
+    name: 国外流量
+    type: select
+    proxies:
+      - 自动优选
+      - '台湾 05'
+      - '台湾 06'
+      - '新加坡 301'
+      - '新加坡 302'
+      - '日本 301'
+      - '日本 302'
+      - '日本 303'
+      - '日本 304'
+      - '美国 01'
+      - '美国 02'
+      - '香港 A'
+      - '香港 B'
+      - '香港 C'
+      - '香港 D'
+      - DIRECT
+  -
+    name: ChatGPT
+    type: select
+    proxies:
+      - '台湾 05'
+      - '台湾 06'
+      - '新加坡 301'
+      - '新加坡 302'
+      - '日本 301'
+      - '日本 302'
+      - '日本 303'
+      - '日本 304'
+      - '美国 01'
+      - '美国 02'
+      - '香港 A'
+      - '香港 B'
+      - '香港 C'
+      - '香港 D'
+  -
+    name: 自动优选
+    type: url-test
+    proxies:
+      - '台湾 05'
+      - '台湾 06'
+      - '新加坡 301'
+      - '新加坡 302'
+      - '日本 301'
+      - '日本 302'
+      - '日本 303'
+      - '日本 304'
+      - '美国 01'
+      - '美国 02'
+      - '香港 A'
+      - '香港 B'
+      - '香港 C'
+      - '香港 D'
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+
+rules:
+- DOMAIN-SUFFIX,youtube.com,国外流量
+- DOMAIN-SUFFIX,services.googleapis.cn,国外流量
+- DOMAIN-KEYWORD,openai,ChatGPT
+- DOMAIN-KEYWORD,sentry,ChatGPT
+- DOMAIN-SUFFIX,oaistatic.com,ChatGPT
+- DOMAIN-SUFFIX,oaiusercontent.com,ChatGPT
+- GEOIP,CN,DIRECT
+- MATCH,国外流量
+
